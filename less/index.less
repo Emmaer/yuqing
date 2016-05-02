@@ -1,0 +1,347 @@
+body,ul,li{
+  font-family:"微软雅黑";
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yellow{
+  color:#FFDA28;
+}
+a{
+  color:#fff;
+  text-decoration: none;
+}
+.nav{
+  width:100%;
+position: absolute;
+  top:0;
+  left:0;
+  z-index:111;
+  overflow: hidden;
+  background:#168BD8;
+  height:60px;
+  .min-navBox{
+    display:none;
+  }
+  .navBox{
+    margin-left:-15px;
+    margin-right:-15px;
+    height:100%;
+    .navLogo{
+      height:40px;
+      width:142px;
+     margin-top:10px;
+      float: left;
+      background:url("../images/logo.png")no-repeat left top;
+    }
+    .navCenter {
+
+      font-size: 14px;
+      width: 32%;
+      float: right;
+      line-height: 80px;
+      text-align: justify;
+      margin-right:200px;
+      &:after {
+        content: "";
+        height: 0;
+        line-height: 0;
+        width: 100%;
+        font-size: 0;
+        display: inline-block;
+
+      }
+      a {
+        display: inline-block;
+
+      }
+    }
+      .navRight{
+        font-size:12px;
+        height:100%;
+        text-align: justify;
+        float:right;
+        width:32%;
+        line-height: 80px;
+        a{
+          display: inline-block;
+        }
+        &:after{
+          content:"";
+          height:0;
+          line-height: 0;
+          width:100%;
+          font-size: 0;
+          display: inline-block;
+
+        }
+
+
+      }
+
+  }
+}
+.floor1 {
+  width: 100%;
+  height: 100%;
+  background: #3fb0ee url(../images/bg1.jpg) repeat center top;
+  .cover {
+    .top {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: -50px;
+      .cloud1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        animation: slideOutLeft 20s linear infinite;
+        img {
+          width: 100%;
+        }
+      }
+    }
+      .middle {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 60px;
+        .cloud2 {
+          position: absolute;
+          top:0px;
+          left: 460px;
+          width: 100%;
+          height: 1000px;
+          animation: slideOutLeft 60s linear infinite;
+          img {
+            width: 100%;
+
+          }
+        }
+
+      }
+    .bot {
+      position: absolute;
+      width: 100%;
+      left: 30px;
+      top: 110px;
+      .cloud3 {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        animation: slideOutLeft 40s linear infinite;
+        img {
+          width: 100%;
+        }
+      }
+
+    }
+  }
+.main1{
+
+  position: relative;
+  .wenzi{
+    width:501px;
+    height:158px;
+    background:url(../images/yuqing.png);
+    position: absolute;
+    left:0;
+    top:100px;
+  }
+  .feiji{
+    width: 119px;
+    height: 78px;
+    background: url(../images/feiji.png);
+    position:absolute;
+    top:90px;
+    left:286px;
+    animation: slideInDown 2s linear infinite alternate;
+  }
+  .chuan{
+    width: 242px;
+    height: 228px;
+    background: url(../images/chuan.png);
+    position: absolute;
+    left:150px;
+    top:328px;
+    animation: slideInLeft 1s linear ;
+  }
+  .bing1{
+    width: 265px;
+    height: 175px;
+    background: url(../images/bing1.png);
+    position:absolute;
+    left:-150px;
+    top:466px;
+  }
+  .bing2{
+    width: 260px;
+    height: 175px;
+    background: url(../images/bing2.png);
+    position: absolute;
+    right:-100px;
+    top:466px;
+  }
+  .bing3{
+    width: 63px;
+    height: 78px;
+    background: url(../images/bing3.png);
+    position: absolute;
+    right:250px;
+    top:500px;
+  }
+  .login{
+    top:150px;
+    right:0px;
+    width: 340px;
+    height:290px;
+    background: #4EBFFC;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+
+    .login-1{
+      position: relative;
+      width:300px;
+      height:40px;
+      margin: 20px auto;
+      background: #fff;
+      line-height: 40px;
+      padding-left: 10px;
+    }
+    .login-2{
+      position: relative;
+      width:300px;
+      height:40px;
+      margin: 0px auto;
+      background: #fff;
+      line-height: 40px;
+      padding-left: 10px;
+    }
+    .login-3{
+      position: relative;
+      width:100px;
+      height:40px;
+      margin: 20px 20px;
+      background: #fff;
+      line-height: 40px;
+      padding-left: 10px;
+      span{
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        display: inline-block;
+        width: 100px;
+        height:40px;
+        background: #B7E4FD;
+        margin-left:140px;
+        color:#204D66;
+      }
+      a{
+        display:inline-block;
+        float:right;
+        color:#fff;
+
+
+      }
+    }
+    input{
+      position: absolute;
+      top:0px;
+      left: 30px;
+      outline:none;
+      width: 92%;
+      height:96%;
+      border:none;
+    }
+  }
+
+
+  .login-4{
+    position: relative;
+    width:300px;
+    height:40px;
+    margin: 20px auto;
+    line-height: 40px;
+    padding-left: 10px;
+    .btn{
+      background: #FFD850;
+      display: block;
+      width: 100%;
+      height:40px;
+      color: red;
+      font-size: 20px;
+    }
+  }
+
+
+}
+}
+@media screen and(max-width:768px) {
+  .nav {
+    max-width: 768px;
+  }
+
+  .navBox {
+    display: none;
+  }
+
+  .min-navBox {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block !important;
+    //background:green;
+    height: 100%;
+    text-align: justify;
+    line-height: 60px;
+    vertical-align: middle;
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 0;
+      line-height: 0;
+      font-size: 0;
+
+    }
+    div {
+      display: inline-block;
+    }
+    .min-icon, .min-right {
+      color: #fff;
+    }
+
+    .min-logo {
+
+      height: 40px;
+      width: 142px;
+      margin-top: 10px;
+      background: url(../images/logo.png) no-repeat;
+    }
+
+  }
+
+}
